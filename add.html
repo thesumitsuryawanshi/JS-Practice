@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<script>
+
+function f1() 
+{	
+		var a =document.getElementById('n1').value;
+		var b =document.getElementById('n2').value;
+		a= parseInt(a);
+        b= parseInt(b);
+    
+    document.getElementById('add').innerHTML=a+b;
+    document.getElementById('sub').innerHTML=a-b;
+    document.getElementById('multi').innerHTML=a*b;
+    document.getElementById('div').innerHTML=a/b;
+    
+alert("Successful");
+
+}
+
+
+</script>
+
+</head>
+
+<body>
+
+Enter NO 1 <input type="number" id="n1">
+Enter NO 2 <input type="number" id="n2">
+
+
+<br>
+<br>
+<br>
+<button onclick='f1()'>Arithmatic Operations</button>
+
+<br>
+<br>
+Add:<p id='add'></p>
+<br>
+Sub:<p id='sub'></p>
+<br>
+Multi<p id='multi'></p>
+<br>
+DIv:<p id='div'></p>
+
+</body>
+
+</html>
